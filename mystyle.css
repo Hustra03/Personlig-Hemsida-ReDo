@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 1.2vw;
+}
+
+header {
+  color: white;
+  background-color: rgb(80, 208, 224);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 1.75vw;
+  padding: 1vw;
+}
+a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+.titel {
+  display: flex;
+  justify-content: center;
+}
+.bild {
+  width: 33%;
+  height: 33%;
+  display: flex;
+  justify-self: center;
+}
+article {
+  color: black;
+  background-color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin-bottom: 1vw;
+}
+
+p {
+  margin-left: 0.5vw;
+}
+li h4 {
+  margin-left: 0;
+  padding: 0;
+}
+article li {
+  list-style: none;
+  text-decoration: no underline;
+  display: inline-block;
+  margin-right: 1.5vw;
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+  padding: 2vw;
+  font-size: larger;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+  padding: 0.2vw;
+  margin-top: 0;
+  text-align: center;
+  color: antiquewhite;
+  background-color: darkslategray;
+}
+
+.pbilder {
+  margin: 0;
+}
+
+.bildgalleri {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: inherit;
+}
