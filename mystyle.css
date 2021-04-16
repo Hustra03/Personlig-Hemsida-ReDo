@@ -20,7 +20,7 @@ a:hover {
 }
 .titel {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 .bild {
   width: 33%;
@@ -70,12 +70,17 @@ footer {
   background-color: darkslategray;
 }
 
-.pbilder {
-  margin: 0;
+.Bilder {
+  display: grid;
+  grid-template-columns: 30vw 30vw;
+  grid-template-rows: 50vw 10vw;
 }
 
-.bildgalleri {
+.bildspel {
+  width: 30vw;
+  height: auto;
+  grid-column-start: 2;
   display: flex;
-  flex-wrap: wrap;
-  flex-basis: inherit;
+  justify-content: center;
+  align-self: center;
 }

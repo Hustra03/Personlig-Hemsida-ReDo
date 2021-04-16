@@ -1,51 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
- 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta
-  name="description"
-  content="Detta är min personliga hemsida, med information om mig och vart jag kommer ifrån"
- />
-  <title>Bildgalleri</title>
-  <link rel="stylesheet" href="mystyle.css" />
-</head>
- 
-<body>
-  <header>
-    <h1 class="titel">Min Hemsida</h1>
-    <nav class="titel">
-      <ul>
-        <li><a href="Index.html">Här bor jag</a></li>
-        <li><a href="Intressen.html">Mina Intressen</a></li>
-        <li><a href="#bild">Bildgalleri</a></li>
-      </ul>
-    </nav>
-  </header>
- 
-  <h3 id="bild">Nedan är ett galleri av bilder från olika platser i Ekerö kommun.</h3>
-  <p class="pbilder">
-  <div class="bildgalleri">
-    <img src="Bilder/IMG_1826.JPG" alt="En bild tagen vid svartsjö slottsparken, på insjön under hösten, och denna är nedsjunken i en fyrkantig avplanad grop, och marken är täckt av löven som fallit från träden." width="33%" height="33%" />
-    <img src="Bilder/IMG_1970.JPG" alt="En bild tagen i en skog nära till där jag bor, också på en insjö, men denna bild är tagen på vintern. Vattnet är helt fruset, och man ser fotspår från olika djur i tunn snö som delvis täcker isen, och i bakgrunden ses ett mindre berg. " width="33%" height="33%" />
-    <img src="Bilder/IMG_2203.JPG" alt="En bild på min tomt. Vi ser en del av gräsmattan på den övre delen av tomten, och på den nedre delen vi en studsmatta och ett hallonland. I bakgrunden ses en skjul, och bortom detta en skog" width="33%" height="33%" />
-  </div>
-  <p>Bild 1 är vid Svartsjöslottsparken, Bild 2 är en bild på en insjö i en skog som ligger nära mitt hus och Bild 3 är en bild från övre delen av tomten neråt åkrarna och ängarna.</p>
-  <div class="bildgalleri">
-    <img src="Bilder/IMG_2269.JPG" alt="En bild på ett träd, mer specifikt en gran, som står på ett berg och i bakgrunden ses ett flertal andra liknande träd." width="33%" height="33%" />
-    <img src="Bilder/IMG_2309.JPG" alt="Liknande motiv som bild 3, men denna är tagen vid ett annat tillfälle och från en annan vinkel. Vi ser en växt i förgrunden, och i bakgrunden ses en höbal-bil samt en åker täkt av nyklippt gräs. " width="33%" height="33%" />
-    <img src="Bilder/IMG_1629.JPG" alt="Bilden är tagen vid en badplats, och i fokus är en liten fågel som sitter på bryggan. Vi ser även bojar och en segelbåt i bakgrunden" width="33%" height="33%" />
-  </div>
-  <p>Bild 4 är på ett träd, som jag tog på en skolutflykt. Bild 5 har liknande motiv som bild 3, men är tagen vid en annan tidpunkt och har en växt i förgrunden. Bild 6 är tagen vid karlskär, en närliggande badplats, där vi ofta badar vid somrarna.  </p>
-  </p>
-  <footer>
-    <p>Av Erik Paulinder</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Detta är min personliga hemsida, med information om mig och vart jag kommer ifrån"
+    />
+    <title>Bildgalleri</title>
+    <link rel="stylesheet" href="mystyle.css" />
+    <script src="script.js" defer></script>
+  </head>
 
-    <p>Kontaktinformation: erik.paulinder@elev.ga.ntig.se</p>
+  <body>
+    <header>
+      <h1 class="titel">Min Hemsida</h1>
+      <nav class="titel">
+        <ul>
+          <li><a href="Index.html">Här bor jag</a></li>
+          <li><a href="Intressen.html">Mina Intressen</a></li>
+          <li><a href="#bild">Bildgalleri</a></li>
+        </ul>
+      </nav>
+    </header>
 
-  </footer>
-</body>
- 
+    <h3 id="bild" class="titel">
+      Nedan är ett galleri av bilder från olika platser i Ekerö kommun.
+    </h3>
+    <div class="titel">
+      <button type="button" onclick="ÖkaBildnummer()">Öka Bildnummer</button
+      ><button type="button" onclick="SänkaBildnummer()">
+        Sänka Bildnummer
+      </button>
+    </div>
+    <div id="BildPosition" class="Bilder"></div>
+    <footer>
+      <p>Av Erik Paulinder</p>
+
+      <p>Kontaktinformation: erik.paulinder@elev.ga.ntig.se</p>
+    </footer>
+  </body>
 </html>
- 
