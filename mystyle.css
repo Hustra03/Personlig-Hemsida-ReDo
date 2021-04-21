@@ -21,6 +21,7 @@ a:hover {
 .titel {
   display: flex;
   justify-content: space-evenly;
+  margin-bottom: 0.5vw;
 }
 .bild {
   width: 33%;
@@ -64,23 +65,18 @@ a {
 
 footer {
   padding: 0.2vw;
-  margin-top: 0;
+  margin-top: 1vw;
   text-align: center;
   color: antiquewhite;
   background-color: darkslategray;
 }
 
 .Bilder {
-  display: grid;
-  grid-template-columns: 30vw 30vw;
-  grid-template-rows: 50vw 10vw;
+  display: flex;
+  justify-content: center;
 }
 
 .bildspel {
   width: 30vw;
   height: auto;
-  grid-column-start: 2;
-  display: flex;
-  justify-content: center;
-  align-self: center;
 }
