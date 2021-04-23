@@ -26,8 +26,7 @@ a:hover {
 .bild {
   width: 33%;
   height: 33%;
-  display: flex;
-  justify-self: center;
+  margin-left: 30vw;
 }
 article {
   color: black;
@@ -35,6 +34,7 @@ article {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   margin-bottom: 1vw;
+  margin-left: 2.5vw;
 }
 
 p {
