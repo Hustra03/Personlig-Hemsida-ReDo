@@ -8,7 +8,7 @@ let BildPosition2 = document.getElementById("BildPosition2");
 function Bildspel() {
   BildPosition1.innerHTML = "";
   BildPosition2.innerHTML = "";
-  
+
   if (visadBild1 == 1) {
     let item = document.createElement("img");
     item.src = "Bilder/IMG_1826.JPG";
@@ -55,12 +55,12 @@ function Bildspel() {
     item.src = "Bilder/IMG_2269.JPG";
     item.alt =
       "En bild på ett träd, mer specifikt en gran, som står på ett berg och i bakgrunden ses ett flertal andra liknande träd.";
-    item.classList.add("bildspel");
+    item.classList.add("bildspel2");
     BildPosition2.append(item);
     let text = document.createElement("p");
     text.innerText =
-      "Denna bild är tagen på ett naturreservat som ligger i närheten till där jag bor, mer specifikt på en kulle där. ";
-    text.classList.add("bildspel");
+      "Denna bild är tagen på ett naturreservat som ligger i närheten till där jag bor, som heter Eldgarnsö, mer specifikt på en kulle där. ";
+    text.classList.add("bildspel2");
     BildPosition2.append(text);
   }
 
@@ -69,12 +69,12 @@ function Bildspel() {
     item.src = "Bilder/IMG_2309.JPG";
     item.alt =
       "Liknande motiv som bild 3, men denna är tagen vid ett annat tillfälle och från en annan vinkel. Vi ser en växt i förgrunden, och i bakgrunden ses en höbal-bil samt en åker täkt av nyklippt gräs. ";
-    item.classList.add("bildspel");
+    item.classList.add("bildspel2");
     BildPosition2.append(item);
     let text = document.createElement("p");
     text.innerText =
       "Denna bild är, likt den tredje, också tagen från min tomt, och visar den nedre delen samt det som är bortom. Den är nyare, även om båda bilderna är ett par år gamla.";
-    text.classList.add("bildspel");
+    text.classList.add("bildspel2");
     BildPosition2.append(text);
   }
 
@@ -83,12 +83,12 @@ function Bildspel() {
     item.src = "Bilder/IMG_1629.JPG";
     item.alt =
       "Bilden är tagen vid en badplats, och i fokus är en liten fågel som sitter på bryggan. Vi ser även bojar och en segelbåt i bakgrunden";
-    item.classList.add("bildspel");
+    item.classList.add("bildspel2");
     BildPosition2.append(item);
     let text = document.createElement("p");
     text.innerText =
       "Denna bild är tagen vid den lokala badplatsen, i förgrunden ser bryggan, och på denna sitter en liten fågel, medans i bakgrunden så ser vi bojar och en segelbåt. ";
-    text.classList.add("bildspel");
+    text.classList.add("bildspel2");
     BildPosition2.append(text);
   }
 }
