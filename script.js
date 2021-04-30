@@ -4,7 +4,8 @@ let visadBild1 = 1;
 let visadBild2 = 1;
 let BildPosition1 = document.getElementById("BildPosition");
 let BildPosition2 = document.getElementById("BildPosition2");
-let timerPosition = document.getElementById("hem");
+
+
 function Bildspel() {
   BildPosition1.innerHTML = "";
   BildPosition2.innerHTML = "";
@@ -119,13 +120,3 @@ function SänkaBildnummer2() {
 }
 Bildspel();
 
-function MinÅlder() {
-  var minutes = 1000 * 60;
-  var hours = minutes * 60;
-  var days = hours * 24;
-  var years = days * 365;
-  var d = new Date();
-  var t = d.getTime() - (50 + 10 / 12) * years + 26 * days;
-  let p = document.createElement(p);
-  timerPosition.append(p);
-}
