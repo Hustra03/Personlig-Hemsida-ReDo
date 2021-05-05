@@ -5,6 +5,8 @@ var days = hours * 24;
 var years = days * 365;
 var temp = 0;
 var day = 0;
+var temp2=0;
+var hour=0;
 
 function MinÅlder() {
   timerPosition.innerHTML = "";
@@ -14,11 +16,13 @@ function MinÅlder() {
   t = t / years;
   temp = t;
   t = Math.round(t);
-  day = temp - round;
-  day = Math.Round(day / days);
+  temp -= t;
+  temp2=temp*365;
+  day = Math.round(temp*365);
+  temp2 -= day;
+  hour = Math.round(temp2*24)
   let p = document.createElement("p");
-  console.log(t);
-  p.innerText = "Jag är " + t + " år och " + days + " dagar gammal";
+  p.innerText = "Jag är " + t + " år, " + day + " dagar och "+hour +" timmar gammal";
   timerPosition.append(p);
 }
 MinÅlder();
